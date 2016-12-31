@@ -12,6 +12,6 @@ class Gear
   end
 
   def ratio
-    chainring / cog.to_f  
+    chainring / cog.to_f 
   end
 end

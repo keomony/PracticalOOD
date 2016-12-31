@@ -1,5 +1,5 @@
 class Wheel
-  attr_read :rim, :tire
+  attr_reader :rim, :tire
   def initialize(rim, tire)
     @rim = rim
     @tire = tire

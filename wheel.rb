@@ -4,4 +4,8 @@ class Wheel
     @rim = rim
     @tire = tire
   end
+
+  def diameter
+    rim + (tire * 2)
+  end
 end
